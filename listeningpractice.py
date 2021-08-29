@@ -7,7 +7,7 @@ numbers = random.randint(100, size=(5))
 
 string = "   ".join([str(i) for i in numbers])
 
-# Space to prevents the audio file from an abrupt end.
+# Space to prevent the audio file from an abrupt end.
 string = string + " " 
 
 # Default language = French.
